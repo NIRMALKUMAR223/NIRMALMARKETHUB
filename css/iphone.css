@@ -1,0 +1,31 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0%;
+    padding: 0%;
+}
+.nav{
+    color: white;
+    background-color: rgb(0, 0, 0);
+    padding: 35px;
+}
+#h{
+    display: inline;
+    color: rgb(255, 255, 255);
+}
+ul{
+    margin-left: 50%;
+    display: inline;
+}
+li:hover{
+    color: rgb(223, 197, 51);
+    cursor: pointer;
+}
+li{
+    display: inline;
+    margin-right: 1px;
+
+}
+#h{
+    display: inline;
+}
+
