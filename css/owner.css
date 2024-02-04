@@ -1,14 +1,18 @@
-
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: Arial, Helvetica, sans-serif ;
+}
 .nav{
     color: white;
     background-color: rgb(0, 0, 0);
-    padding: 35px;
+    padding: 25px;
+    width: 100%;
+
 }
 nav{
-    width: 100%;
-    background-color: black;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     
 }
 #h{
@@ -18,16 +22,18 @@ nav{
 
 }
 ul{
-    margin-left: 50%;
-    display: inline;
+    display: inline-block;
 }
 li:hover{
     color: rgb(223, 197, 51);
     cursor: pointer;
+    background-color: rgb(253, 254, 255);
+    box-shadow: 1px 0px 10px rgb(255, 234, 234);
 }
 li{
-    display: inline;
+    display: inline-block;
     margin-right: 1px;
+    margin: 3%;
 
 }
 #h{
@@ -65,7 +71,6 @@ li{
     border-radius: 30px;
     transition: all 1s ease-in-out;
     margin-bottom: 70px;
-    margin-top: 20px;
     display: inline-block;
     margin: 3%;
     
