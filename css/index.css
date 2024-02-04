@@ -34,7 +34,7 @@
             border-radius: 30px;
             box-shadow: 2px 1px 10px black;
             margin-bottom: 50px;
-            margin-left: 50px;
+            margin-left: 40px;
             
         }
         hr{
@@ -132,6 +132,7 @@
         }
         #las{
             margin-top  : 20px;
+            margin-left: 20px;
             text-align: center;
 
         }
