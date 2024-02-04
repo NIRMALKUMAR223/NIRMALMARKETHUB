@@ -95,7 +95,7 @@ strong{
 }
 #img{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     background-color: rgb(255, 255, 255);
     filter: blur(3);
     justify-content: center;
