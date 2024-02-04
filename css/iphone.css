@@ -18,6 +18,7 @@ nav{
 #h{
     display: inline;
     color: rgb(255, 255, 255);
+
 }
 ul{
     margin-left: 50%;
@@ -26,13 +27,12 @@ ul{
 li:hover{
     color: rgb(223, 197, 51);
     cursor: pointer;
+    background-color: rgb(253, 254, 255);
+    box-shadow: 1px 0px 10px rgb(255, 234, 234);
 }
 li{
-    display: inline;
+    display: inline-block;
     margin-right: 1px;
 
-}
-#h{
-    display: inline;
 }
 
