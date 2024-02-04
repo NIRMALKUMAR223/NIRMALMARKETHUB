@@ -4,9 +4,16 @@
     background-color: rgb(0, 0, 0);
     padding: 35px;
 }
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
 #h{
     display: inline;
     color: rgb(255, 255, 255);
+    font-weight: bolder;
+
 }
 ul{
     margin-left: 50%;
@@ -30,53 +37,53 @@ li{
     font-family: Arial, Helvetica, sans-serif;
 }
 #one{
-    
+    margin: 4%;
     padding-bottom: 40px;
-    
 }
 #two{
-    width: 60%;
-    margin:20px;
+    text-align: center;
+    width: 90%;
+    height: auto;
     background-color: rgb(168, 170, 172);
-    padding: 30px;
+    color: rgb(0, 0, 0);
     border-radius: 30px;
     transition: all 1s ease-in-out;
+    padding: 30px;
+    margin-bottom: 30px;
+    margin: 3%;
 }
-#two:hover{
-    padding: 40px;
-}
+
 #three{
     width: 90%;
     margin:20px;
-    margin-left: 30px;
+    height: auto;
+    text-align: center;
     background-color: rgb(168, 170, 172);
     padding: 30px;
     border-radius: 30px;
     transition: all 1s ease-in-out;
     margin-bottom: 70px;
     margin-top: 20px;
-
+    display: inline-block;
+    margin: 3%;
+    
 }
-#three:hover{
+#three:hover,#two:hover{
     padding: 40px;
     
+
 }
 img{
     width: 350px;
     height: 350px;
     padding-top:20px ;
-    margin-right: 50px;
     object-fit: cover;
+    position: relative;
     border-radius: 50%;
     display: inline-block;
-    margin-left: 20px;
-    margin-top: 30px;
     transition: all 1s ease-in-out;
 }
-img:hover{
-    width: 380px;
-    height: 380px;
-}
+    
 
 #footer{
     text-align: center;
@@ -86,27 +93,18 @@ img:hover{
 strong{
     margin-left: 30px;
 }
-.rip{
-    text-align: center;
-    height: auto;
-    background-color: rgb(168, 170, 172);
-    color: rgb(0, 0, 0);
-    padding-bottom: 0% ;
-}
+
 #img{
-    display: flex;
-    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
     background-color: rgb(255, 255, 255);
     filter: blur(3);
-    justify-content: center;
-    align-items: center;
     margin-bottom: 40px;
     color: black;
+    display: flex;
+    flex-direction: row;
 }
-#two{
-    text-align: justify;
-    margin: 20px;
-}
+
 #p3{
     color: rgb(0, 0, 0);
     display: inline-block;
@@ -140,6 +138,4 @@ h1{
     text-align: center;
     margin: 10px;
     display: block;
-    
-
 }
