@@ -49,7 +49,8 @@ input{
 .products{
     width: 100%;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: repeat(auto-fill,minmax(400px,1fr));
+    margin-left: 20px;
     padding: 25px;
 }
 
@@ -64,7 +65,7 @@ input{
     display: inline-block;
 }
 .fog:hover{
-    box-shadow: 1px 0px 4px rgb(126, 125, 125);
+    box-shadow: 1px 0px 10px rgb(126, 125, 125);
     border-color: black;
     border-width: 3px;
     cursor: pointer;
@@ -88,7 +89,7 @@ input{
     border-width: 3px;
     cursor: pointer;
     border-radius: 25px;
-    box-shadow: 1px 0px 4px rgb(126, 125, 125);
+    box-shadow: 1px 0px 10px rgb(126, 125, 125);
     border:none;
 
 
@@ -109,7 +110,7 @@ input{
     border-width: 3px;
     cursor: pointer;
     border-radius: 25px;
-    box-shadow: 1px 0px 4px rgb(126, 125, 125);
+    box-shadow: 1px 0px 10px rgb(126, 125, 125);
     border:none;
 
 
@@ -133,7 +134,7 @@ input{
     border-width: 3px;
     cursor: pointer;
     border-radius: 25px;
-    box-shadow: 1px 0px 4px rgb(126, 125, 125);
+    box-shadow: 1px 0px 10px rgb(126, 125, 125);
     border:none;
 
 
@@ -143,7 +144,7 @@ input{
     border-width: 3px;
     cursor: pointer;
     border-radius: 25px;
-    box-shadow: 1px 0px 4px rgb(126, 125, 125);
+    box-shadow: 1px 0px 10px rgb(126, 125, 125);
     border:none;
 
 
