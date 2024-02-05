@@ -83,12 +83,15 @@ li{
 img{
     width: 350px;
     height: 350px;
-    padding-top:20px ;
+    padding: 40px ;
     object-fit: cover;
     position: relative;
     border-radius: 50%;
     display: inline-block;
     transition: all 1s ease-in-out;
+}
+img:hover{
+    
 }
     
 
@@ -102,14 +105,15 @@ strong{
 }
 
 #img{
-    justify-content: space-between;
-    align-items: center;
+    width: 90%;
     background-color: rgb(255, 255, 255);
     filter: blur(3);
     margin-bottom: 40px;
     color: black;
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 #p3{

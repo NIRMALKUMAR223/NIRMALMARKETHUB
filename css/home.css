@@ -7,7 +7,8 @@
     background-color: rgb(0, 0, 0);
     color: white;
     padding: 35px;
-    
+    width: 100%;
+
 }
 nav{
     width: 100%;
@@ -36,6 +37,7 @@ li{
 .search{
     margin-right: 10px;
     text-align: center;
+
 }
 input{
     margin: 25px;
@@ -45,12 +47,12 @@ input{
     border-radius: 10px;
 }
 .products{
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    padding: 30px;
-    margin-bottom: 2px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 25px;
 }
+
 .fog{
     text-align: center;
     border-style: solid;
@@ -62,9 +64,13 @@ input{
     display: inline-block;
 }
 .fog:hover{
+    box-shadow: 1px 0px 4px rgb(126, 125, 125);
     border-color: black;
     border-width: 3px;
     cursor: pointer;
+    border-radius: 25px;
+    border: none;
+
 }
 .watch{
     text-align: center;
@@ -81,6 +87,12 @@ input{
     border-color: black;
     border-width: 3px;
     cursor: pointer;
+    border-radius: 25px;
+    box-shadow: 1px 0px 4px rgb(126, 125, 125);
+    border:none;
+
+
+
 }
 .wash{
     text-align: center;
@@ -96,6 +108,12 @@ input{
     border-color: black;
     border-width: 3px;
     cursor: pointer;
+    border-radius: 25px;
+    box-shadow: 1px 0px 4px rgb(126, 125, 125);
+    border:none;
+
+
+
 }
 
 
@@ -114,11 +132,21 @@ input{
     border-color: black;
     border-width: 3px;
     cursor: pointer;
+    border-radius: 25px;
+    box-shadow: 1px 0px 4px rgb(126, 125, 125);
+    border:none;
+
+
 }
 .cheppal:hover{
     border-color: black;
     border-width: 3px;
     cursor: pointer;
+    border-radius: 25px;
+    box-shadow: 1px 0px 4px rgb(126, 125, 125);
+    border:none;
+
+
 }
 .cheppal{
     text-align: center;
@@ -134,6 +162,7 @@ input{
     background-color: black;
     color: white;
     width: 100%;
-    height: 200px;
+    height: fit-content;
     padding: 20px;
+    text-align: center;
 }
